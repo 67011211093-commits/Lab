@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หน้าแนะนำตัวของฉัน</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .card {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+            color: #2c3e50;
+        }
+        p.subtitle {
+            color: #7f8c8d;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .bio {
+            text-align: left;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <!-- รูปโปรไฟล์ตัวอย่าง -->
+        <img src="https://via.placeholder.com/120" alt="Profile Picture" class="profile-img">
+        
+        <h1>ยินดีต้อนรับสู่เว็บของฉัน</h1>
+        <p class="subtitle">นักพัฒนาเว็บมือใหม่ / Web Developer</p>
+        
+        <div class="bio">
+            <p>สวัสดีครับ! ผมกำลังเรียนรู้การเขียนโค้ด HTML, CSS และการสร้างเว็บไซต์ โปรเจกต์นี้เป็นหน้าเว็บแนะนำตัวแผ่นแรกของผม</p>
+        </div>
+
+        <a href="https://github.com" target="_blank" class="btn">ไปยัง GitHub ของฉัน</a>
+    </div>
+
+</body>
+</html>
